@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit's Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <img src="image/logo.png" alt="Logo" class="logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="detail">
+        <h1>
+          Hello!<br />
+          I'm <span>Ankit</span> Patra
+        </h1>
+        <div class="dunamic">
+          <h2>I'm a<span class="auto-type"></span></h2>
+        </div>
+        <a href="#">Projects</a>
+      </div>
+      <div class="images">
+        <img src="image/dp.png" alt="dp" class="dp" />
+      </div>
+    </div>
+    <!----About section----->
+    <section class="about" id="About">
+      <div class="main">
+        <img src="image/about.jpg" alt="about" class="about-img" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer <span>& Programmer</span></h5>
+          <p>
+            Computer Science Student currently exploring Web
+            development. Interested both in back and front-end technologies,
+            knowledgeable with JS, CSS, HTML, Python, C and C++.I also make the website more & more interactive with web animations.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!----Contact me section----->
+    <footer>
+      <p>Ankit Patra</p>
+      <p>
+        I create successful projects that are fast, easy to use, and built with best practices.
+
+
+      </p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/ankit-patra-a87145215/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/Ankit-Patra"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/AnkitPa01526817"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+        <a href="https://www.instagram.com/AnkitPatra123/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+      <p class="end">CopyRight by Ankit Patra</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Programmer", "Developer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
