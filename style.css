@@ -165,3 +165,60 @@ footer p:nth-child(2){
 .auto-type{
     margin-left: 10px;
 }
+.area
+{
+    border:none;
+    background-color:#EADFDF;
+    width:600px;
+    height: 40px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.text-area
+{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border:none;
+    background-color: #EADFDF;
+    width:600px;
+    height: 100px;
+}
+.submit-button
+{
+    width:10rem;
+    height:3rem;
+    background-color: #70A0E5;
+    color:white;
+    border:none;
+    font-size:16px;
+    margin-left:13rem;
+}
+.submit-button:hover
+{
+    cursor:pointer;
+    background-color: #387CDF;
+}
+.main-box
+{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    margin-top:4rem;
+    margin-bottom: 200px;
+}
+.contact-info h2{
+    color: rgb(235, 87, 166);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.form{
+        margin-top: 100px;
+}
+.contact-1{
+    margin-top: 20px;
+    display:flex;
+}
+.text2{
+    margin: 10px;
+}

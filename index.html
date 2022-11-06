@@ -12,13 +12,13 @@
     />
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="Home">
       <nav>
         <img src="image/logo.png" alt="Logo" class="logo" />
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#Home">Home</a></li>
           <li><a href="#About">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
       <div class="detail">
@@ -53,39 +53,34 @@
     </section>
 
     <!----Contact me section----->
-    <div class="contact-info">
-      <p class="font-20">Got a Question?</p>
-      <p class="font-20 contact-text">
-        It would be nice to exchange a few words and know about each other!
-      </p>
-      <div class="contact-1">
-        <img class="icon" src="./images/mail-icon.png" alt="" />
-        <div class="text">
-          <p class="font-20 reset">Email</p>
-          <p class="font-20 reset">ankitpatra0123@gmail.com</p>
-        </div>
-      
-    <div class="form">
-      <form
-        action="mailto:ankitpatra0123@gmail.com"
-        method="post"
-        enctype="text/plain"
-      >
-        <label>Name</label><br />
-        <input name="name" class="area" type="text" /><br />
-        <label>Email</label><br />
-        <input name="mail id" class="area" type="email" /><br />
-        <label>Your Message</label><br />
-        <textarea
-          name="Message"
-          class="text-area"
-          cols="30"
-          rows="10"
-        ></textarea
-        ><br />
-        <input class="submit-button" type="submit" /><br />
-      </form>
-    </div>
+    <div class="main-box" id="Contact">
+      <div class="contact-info">
+        <h2>Contact me</h2>
+          <p class="font-20">Got a Question?</p>
+          <p class="font-20 contact-text">It would be nice to exchange a few words and know about each other!</p>
+          <div class="contact-1">
+              <img class="icon" src="./image/icons8-secured-letter-50.png" alt="">
+              <div class="text2">
+                  <p class="font-20 reset">Email</p>
+                  <p class="font-20 reset">ankitpatra0123@gmail.com</p>
+              </div>
+          </div>
+          
+         
+      </div>
+      <div class="form">
+          <form action="mailto:ankitpatra0123@gmail.com" method="post" enctype="text/plain">
+              <label >Name</label><br>
+              <input name="name" class="area"  type="text"><br>
+              <label>Email</label><br>
+              <input name="mail id" class="area"  type="email"><br>
+              <label>Your Message</label><br>
+              <textarea name="Message" class="text-area" cols="30" rows="10"></textarea><br>
+              <input class="submit-button btn" type="submit"><br>
+          </form>
+      </div>
+  </div>
+</div>
     <!--footer section-->
     <footer>
       <p>Ankit Patra</p>
