@@ -215,3 +215,14 @@ footer p:nth-child(2){
     justify-content: space-around;
     align-items: center;
 }
+@media screen and (max-width:768px){
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .details{
+        display: flex;
+        font-size: 15px;
+        margin-top: 25px;
+        justify-content: center;
+    }
+}
