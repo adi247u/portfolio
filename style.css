@@ -219,7 +219,7 @@ footer p:nth-child(2){
     .hero{
         flex-direction: column-reverse;
     }
-    .details{
+    .details h1{
         display: flex;
         font-size: 15px;
         margin-top: 25px;
